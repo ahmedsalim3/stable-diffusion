@@ -1,4 +1,4 @@
-# StableDiffusionApp
+# stable-diffusion
 
 This project uses the [Stable Diffusion model](https://huggingface.co/CompVis/stable-diffusion-v1-4) to generate images from text prompts. It leverages the [diffusers](https://github.com/huggingface/diffusers) library.
 
@@ -29,7 +29,7 @@ python3 main.py "A futuristic cityscape with neon lights"
 Optionally, specify an output path:
 
 ```sh
-python main.py "A futuristic cityscape with neon lights" --output "city.png"
+python3 main.py "A futuristic cityscape with neon lights" --output "city.png"
 ```
 
 ## Example Usages  
